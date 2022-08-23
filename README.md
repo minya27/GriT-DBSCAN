@@ -3,9 +3,9 @@
 ## DATE FORMAT
 The input dataset needs to be preprocessed into a text file with the following format:
 
-In each line: its coordinates and the point's id, where the id is an integer in the range [0,  n-1].
+* In each line: its coordinates and the point's id, where the id is an integer in the range [0,  n-1].
 
-In total, there are n lines where the numbers at each line are separated by a space. 
+* In total, there are n lines where the numbers at each line are separated by a space. 
 
 For example, a 2-dimensional data set containing 4 points:
  
