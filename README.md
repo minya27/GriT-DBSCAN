@@ -1,5 +1,7 @@
 # GriT-DBSCAN
 
+The C++ code for "GriT-DBSCAN: A spatial clustering algorithm for very large databases"
+
 ## DATE FORMAT
 The input dataset needs to be preprocessed into a text file with the following format:
 
