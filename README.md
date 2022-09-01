@@ -2,7 +2,7 @@
 
 The C++ code for "GriT-DBSCAN: A spatial clustering algorithm for very large databases"
 
-## DATE FORMAT
+## DATA FORMAT
 The input dataset needs to be preprocessed into a text file with the following format:
 
 * In each line: its coordinates and the point's id, where the id is an integer in the range [0,  n-1].
