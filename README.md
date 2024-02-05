@@ -1,6 +1,6 @@
 # GriT-DBSCAN
 
-The C++ code for "[GriT-DBSCAN](https://arxiv.org/pdf/2210.07580.pdf): A spatial clustering algorithm for very large databases"
+The C++ code for "[GriT-DBSCAN: A spatial clustering algorithm for very large databases](https://arxiv.org/pdf/2210.07580.pdf)"
 
 There is a small bug in the description of "Constructing the Grids" and a small bug in the description of "Non-empty Neighboring Grids Query":
 - For any two grids $g_i, g_j \in G_s$ with $i < j$, there exists an integer $z\in [1, d]$ such that $g_{iz} < g_{jz}$ and $g_{iw} = g_{jw}$, for each $w\leq z-1$. (page 4)
