@@ -9,7 +9,7 @@ Then, GriT-DBSCAN runs in $O(d(2\lceil \sqrt{d}\rceil + 1)^{d}\kappa n + d\eta)$
 <!-- - For any two grids $g_i, g_j \in G_s$ with $i < j$, there exists an integer $z\in [1, d]$ such that $g_{iz} < g_{jz}$ and $g_{iw} = g_{jw}$, for each $w\leq z-1$. (page 4) -->
 <!-- - $t^\prime.offset = t.offset+\max\{|KEY(t^\prime) - g_{i2}|-1,0\}^2$. (Eq. (2)) -->
 
-<!-- However, these bugs do not appear in the code. I apologize for the misrepresentation in the paper. -->
+<!-- However, these bugs do not appear in the code. -->
 
 ## DATA FORMAT
 The input dataset needs to be preprocessed into a text file with the following format:
