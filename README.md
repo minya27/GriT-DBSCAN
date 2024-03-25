@@ -5,7 +5,7 @@ The C++ code for "[GriT-DBSCAN: A spatial clustering algorithm for very large da
 Let $\kappa$ be the maximum number of iterations in the merging step.
 Then, GriT-DBSCAN runs in $O(d(2\lceil \sqrt{d}\rceil + 1)^{d}\kappa n + d\eta)$ expected time, regardless of the value of $MinPts$.
 
-<!-- There is a small bug in the description of "Constructing the Grids" and a small bug in the description of "Non-empty Neighboring Grids Query": -->
+<!-- In the paper, there is a small bug in the description of "Constructing the Grids" and a small bug in the description of "Non-empty Neighboring Grids Query": -->
 <!-- - For any two grids $g_i, g_j \in G_s$ with $i < j$, there exists an integer $z\in [1, d]$ such that $g_{iz} < g_{jz}$ and $g_{iw} = g_{jw}$, for each $w\leq z-1$. (page 4) -->
 <!-- - $t^\prime.offset = t.offset+\max\{|KEY(t^\prime) - g_{i2}|-1,0\}^2$. (Eq. (2)) -->
 
